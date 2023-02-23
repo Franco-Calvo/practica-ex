@@ -5,7 +5,7 @@
 
 import app from "../app.js";
 import debug from "debug";
-const logger = debug("practica-ex:server");
+const logger = debug("back-sprint:server");
 import http from "http";
 /**
  * Get port from environment and store in Express.
