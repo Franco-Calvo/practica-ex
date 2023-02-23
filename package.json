@@ -5,9 +5,7 @@
   "scripts": {
     "start": "node ./bin/www",
     "dev": "nodemon ./bin/www",
-    "data_users": "node ./models/data/users",
-    "data_categories": "node ./models/data/categories",
-    "data_books": "node ./models/data/books"
+    "data_users": "node ./models/data/users"
   },
   "type": "module",
   "dependencies": {
