@@ -1,4 +1,6 @@
 import userRouter from "./users.js";
+import categoriesRouter from "./categories.js";
+import booksRouter from "./books.js";
 
 import express from "express";
 let router = express.Router();
@@ -9,5 +11,7 @@ router.get("/", function (req, res, next) {
 });
 
 router.use("/users", userRouter);
+router.use("/categories", categoriesRouter);
+router.use("/books", booksRouter);
 
 export default router;
