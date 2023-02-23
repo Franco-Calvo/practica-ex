@@ -4,7 +4,7 @@ let schema = new mongoose.Schema(
   {
     title: { type: String, required: true },
     date: { type: Date, required: true },
-    category_id: { type: String, required: true },
+    category_id: { type: mongoose.Types.ObjectId, ref: 'categories', required: true },
   },
   {
     timestamps: true,
